@@ -12,7 +12,7 @@ export default async function Image() {
 
   return new ImageResponse(
     <div style={{ display: 'flex', justifyContent: 'center', background: '#000000', width: '100%', height: '100%' }}>
-      <img height='100%' style={{ objectFit: 'contain' }} src={`${process.env.NEXT_PUBLIC_BASE_URL}/default-og.png`} alt={`Aforshow`} />
+      <img height='100%' style={{ objectFit: 'contain' }} src={`${process.env.NEXT_PUBLIC_BASE_URL}/afordin-sponsor.png`} alt={`Continental`} />
     </div>
     , { ...size })
 
