@@ -21,7 +21,7 @@ export const WelcomeHero: FC<Props> = ({ variant, children }) => {
           <h2 className="text-caTextSecondary text-lg md:text-[24px]">
             Informe final puntos extras 0
           </h2>
-          <p className="text-balance text-hero font-semibold lg:text-wrap">
+          <p className="mx-9 text-5xl text-balance md:text-hero font-semibold lg:text-wrap">
             Entrega final en{" "}
             <span className="inline-block bg-gradient-to-r from-caPrimary-500 to-caSecondary-500 text-transparent bg-clip-text">
               Bambú y After Party en Jora
@@ -34,7 +34,7 @@ export const WelcomeHero: FC<Props> = ({ variant, children }) => {
         <Countdown startFrom={new Date("2024-12-6")} />
 
         <div className="flex gap-6 pb-12">
-          {variant === "home" && (
+          {/* {variant === "home" && (
             <a href="#ticket">
               <Button size="xl">
                 Ver ticket
@@ -49,14 +49,14 @@ export const WelcomeHero: FC<Props> = ({ variant, children }) => {
                 <ArrowUpRight className="size-6 ml-2" />
               </Button>
             </a>
-          )}
-          <Button variant="secondary" size="xl">
+          )} */}
+          <Button variant="default" size="xl">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSe8gSmh5h5rkZSPwAOAuY01BwPT98-Ijf1oW4N5iH0YwwdAFA/viewform?usp=sf_link"
               target="_blank"
               rel="noreferrer"
             >
-              Votar al más pisado
+              Votar por el más pisado
             </a>
             <ArrowUpRight className="size-6 ml-2" />
           </Button>

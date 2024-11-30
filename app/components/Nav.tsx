@@ -25,7 +25,7 @@ export const Nav = () => {
         </div>
       </div>
       <div
-        className={`absolute top-16 left-0 w-full bg-slate-900 p-4 md:hidden transition-all duration-300 ease-in-out`}
+        className={`absolute top-16 left-0 w-full bg-slate-900 p-4 hidden transition-all duration-300 ease-in-out`}
       >
         <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSe8gSmh5h5rkZSPwAOAuY01BwPT98-Ijf1oW4N5iH0YwwdAFA/viewform?usp=sf_link"
