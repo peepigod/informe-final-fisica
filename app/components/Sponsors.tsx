@@ -4,6 +4,7 @@ import Image from 'next/image';
 interface SponsorImage {
   src: string;
   alt: string;
+  class?: string;
 }
 
 interface MarqueeProps {
@@ -28,6 +29,7 @@ const Marquee: React.FC<MarqueeProps> = ({
             <Image
               src={sponsor.src}
               alt={sponsor.alt}
+              className={sponsor.class}
               width={200}
               height={200}
             />
@@ -40,11 +42,11 @@ const Marquee: React.FC<MarqueeProps> = ({
 
 export const Sponsors: React.FC = () => {
   const sponsors: SponsorImage[] = [
-    { src: "/imgs/afordin-sponsor.png", alt: "afordin-logo-sponsor" },
-    { src: "/imgs/afordin-sponsor.png", alt: "afordin-logo-sponsor" },
-    { src: "/imgs/afordin-sponsor.png", alt: "afordin-logo-sponsor" },
-    { src: "/imgs/afordin-sponsor.png", alt: "afordin-logo-sponsor" },
-    { src: "/imgs/afordin-sponsor.png", alt: "afordin-logo-sponsor" },
+    { src: "/imgs/afordin-sponsor.png", alt: "logo-sponsor" },
+    { src: "/imgs/logo_cfu_.svg", alt: "logo-sponsor", class: "invert" },
+    { src: "/imgs/logo-wichay.webp", alt: "logo-sponsor" },
+    { src: "/imgs/afordin-sponsor.png", alt: "logo-sponsor" },
+    { src: "/imgs/logo_cfu_.svg", alt: "logo-sponsor", class: "invert" },
   ];
 
   return (
