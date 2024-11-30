@@ -9,8 +9,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Aforshow",
-  description: "A spanish programming event of the community making talks",
+  title: "LosMasomaniaticos",
+  description: "Grupo de Física",
 };
 
 export default function RootLayout({
