@@ -51,7 +51,7 @@ export const Schedule = () => {
         />
         <Talk
           title="Luis el gordo forro"
-          author="Ingeniería de minas | osea sacalocro"
+          author="Ingeniería de minas"
           timestamp={1726860600000}
           img="https://media-lim1-1.cdn.whatsapp.net/v/t61.24694-24/322992086_1063170625293181_2372288811996699189_n.jpg?stp=dst-jpg_tt6&ccb=11-4&oh=01_Q5AaID2Zedl4kYw1DZ_fBLuZm2A_hP-ZH12EAGp_axOB7rzF&oe=6754E12F&_nc_sid=5e03e0&_nc_cat=104"
           alt=""
